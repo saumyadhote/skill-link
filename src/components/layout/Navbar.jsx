@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { to: '/dashboard', label: 'Dashboard' },
   { to: '/explore', label: 'Explore' },
   { to: '/sessions', label: 'Sessions' },
+  { to: '/database', label: 'Database' },
 ]
 
 export default function Navbar({ isAuth }) {

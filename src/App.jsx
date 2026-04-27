@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard'
 import Explore from './pages/Explore'
 import TeacherProfile from './pages/TeacherProfile'
 import Sessions from './pages/Sessions'
+import Database from './pages/Database'
 
 const router = createBrowserRouter([
   { path: '/', element: <Navigate to="/dashboard" replace /> },
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
   { path: '/explore', element: <Explore /> },
   { path: '/profile/:id', element: <TeacherProfile /> },
   { path: '/sessions', element: <Sessions /> },
+  { path: '/database', element: <Database /> },
   { path: '*', element: <Navigate to="/dashboard" replace /> },
 ])
 
